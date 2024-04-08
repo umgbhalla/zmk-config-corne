@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  BASE:
+  base:
   - {t: TAB, h: LC(LS(LALT))}
   - Q
   - W
@@ -38,12 +38,12 @@ layers:
   - /
   - LEFT ALT
   - LEFT GUI
-  - NAV
+  - nav
   - BSPC
   - SPACE
-  - SYMBOLS
+  - symbols
   - ENTER
-  SYMBOLS:
+  symbols:
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  NAV:
+  nav:
   - LG(LC(TAB))
   - {t: ▽, type: trans}
   - LG(LEFT BRACKET)
@@ -129,7 +129,7 @@ layers:
   - LC(LG(SPACE))
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  EXT:
+  extended:
   - {t: ▽, type: trans}
   - F1
   - F2
